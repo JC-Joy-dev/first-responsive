@@ -1,0 +1,33 @@
+#nav{
+    list-style-type: none;
+    background-color: black;
+    text-align: center;
+    /* display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-items: space-between;
+    
+    padding: 20px 10px 10px 10px; */
+}
+#nav li{
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid transparent;
+}
+#nav li a{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* pseudo */
+#nav li:hover{
+    background-color: #fff;
+    border: 1px solid green;
+    transition: 0.4s;
+}
+#nav li a:hover {
+    color: black;
+    transition: 0.4s;
+}
+/* pseudo */

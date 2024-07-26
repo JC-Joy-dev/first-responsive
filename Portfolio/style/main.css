@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+/* Menu-Bar--CSS-Start */
+    #menu{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .logo a{
+        color: #000000;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+    .logo a span{
+        color: rgb(255, 145, 0);
+    }
+    .menu-list{
+        text-align: right;
+    }
+    .menu-list li{
+        list-style-type: none;
+        display: inline-block;
+    }
+    .menu-list li a{
+        text-decoration: none;
+        color: #0000009a;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+/* Menu-Bar-CSS-End */
